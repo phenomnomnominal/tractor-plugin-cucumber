@@ -22,7 +22,7 @@ module.exports = {
 
 ### Step definition config:
 
-You can add a `features` property to your "tractor.conf.js" file to specify where to save the step definition files:
+You can add a `stepDefinition` property to your "tractor.conf.js" file to specify where to save the step definition files:
 
 ```javascript
 module.exports = {
