@@ -1,0 +1,21 @@
+{
+  "name": "tractor-plugin-cucumber",
+  "version": "0.1.0",
+  "author": "Craig Spence <craigspence0@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phenomnomnominal/tractor-plugin-cucumber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phenomnomnominal/tractor-plugin-cucumber/issues",
+    "email": "craigspence0@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "tractor-plugin-cucumber-features": "^0.1.0",
+    "tractor-plugin-cucumber-step-definitions": "^0.1.0"
+  }
+}
