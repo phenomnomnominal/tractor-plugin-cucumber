@@ -6,7 +6,7 @@ Plugin for [**tractor**](http://github.com/TradeMe/tractor) for running tests us
 
 ## How to use:
 
-This plugin combines two other plugins, [**tractor-plugin-cucumber-features**](http://github.com/phenomnomnominal/tractor-plugin-cucumber-features) and [**tractor-plugin-cucumber-step-definitions**](http://github.com/phenomnomnominal/tractor-plugin-cucumber-step-definitions)
+This plugin combines two other plugins, [**tractor-plugin-features**](http://github.com/phenomnomnominal/tractor-plugin-features) and [**tractor-plugin-step-definitions**](http://github.com/phenomnomnominal/tractor-plugin-step-definitions)
 
 ### Features config:
 
