@@ -16,7 +16,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "tractor-plugin-features": "^0.1.0",
-    "tractor-plugin-step-definitions": "^0.1.1"
+    "tractor-plugin-features": "^0.2.0",
+    "tractor-plugin-step-definitions": "^0.2.1"
   }
 }

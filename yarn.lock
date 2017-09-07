@@ -171,7 +171,7 @@ change-case@^3.0.1:
     upper-case "^1.1.1"
     upper-case-first "^1.1.0"
 
-chokidar@^1.6.1:
+chokidar@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-1.7.0.tgz#798e689778151c8076b4b360e5edd28cda2bb468"
   dependencies:
@@ -365,7 +365,7 @@ expand-range@^1.8.1:
   dependencies:
     fill-range "^2.1.0"
 
-express@^4.14.1:
+express@^4.15.4:
   version "4.15.4"
   resolved "https://registry.yarnpkg.com/express/-/express-4.15.4.tgz#032e2253489cf8fce02666beca3d11ed7a2daed1"
   dependencies:
@@ -810,15 +810,15 @@ micromatch@^2.1.5:
     parse-glob "^3.0.4"
     regex-cache "^0.4.2"
 
-mime-db@~1.29.0:
-  version "1.29.0"
-  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.29.0.tgz#48d26d235589651704ac5916ca06001914266878"
+mime-db@~1.30.0:
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.30.0.tgz#74c643da2dd9d6a45399963465b26d5ca7d71f01"
 
 mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.16, mime-types@~2.1.7:
-  version "2.1.16"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
+  version "2.1.17"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.17.tgz#09d7a393f03e995a79f8af857b70a9e0ab16557a"
   dependencies:
-    mime-db "~1.29.0"
+    mime-db "~1.30.0"
 
 mime@1.3.4:
   version "1.3.4"
@@ -1081,11 +1081,10 @@ readdirp@^2.0.0:
     set-immediate-shim "^1.0.1"
 
 regex-cache@^0.4.2:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/regex-cache/-/regex-cache-0.4.3.tgz#9b1a6c35d4d0dfcef5711ae651e8e9d3d7114145"
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/regex-cache/-/regex-cache-0.4.4.tgz#75bdc58a2a1496cec48a12835bc54c8d562336dd"
   dependencies:
     is-equal-shallow "^0.1.3"
-    is-primitive "^2.0.0"
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
@@ -1305,26 +1304,37 @@ tractor-error-handler@^0.2.0, tractor-error-handler@^0.2.1:
   dependencies:
     tractor-logger "^0.1.0"
 
-tractor-file-javascript@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/tractor-file-javascript/-/tractor-file-javascript-0.1.1.tgz#bed6d3ef10135c531a1d5dce25649aa5705fdbfd"
+tractor-file-javascript@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/tractor-file-javascript/-/tractor-file-javascript-0.2.0.tgz#0a2e91fec7cdd15b00407d9c71900c36838fd5b4"
   dependencies:
     escodegen "1.8.1"
     esprima "^4.0.0"
     esquery "^1.0.0"
     tractor-error-handler "^0.2.1"
-    tractor-file-structure "^0.2.1"
+    tractor-file-structure "^0.3.0-beta.0"
     tractor-logger "^0.1.0"
 
-tractor-file-structure@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/tractor-file-structure/-/tractor-file-structure-0.2.1.tgz#656b29a75fab687f39e0b63bce90ad9a1678a2bd"
+tractor-file-structure@^0.3.0-beta.0:
+  version "0.3.0-beta.0"
+  resolved "https://registry.yarnpkg.com/tractor-file-structure/-/tractor-file-structure-0.3.0-beta.0.tgz#d58c17150d2ae04edf5c738dd50f62ee93f34fd7"
   dependencies:
     bluebird "^3.4.7"
-    chokidar "^1.6.1"
-    express "^4.14.1"
+    chokidar "^1.7.0"
+    express "^4.15.4"
     lodash.debounce "^4.0.8"
-    tractor-error-handler "^0.2.0"
+    tractor-error-handler "^0.2.1"
+    tractor-logger "^0.1.0"
+
+tractor-file-structure@^0.4.0-beta.0:
+  version "0.4.0-beta.0"
+  resolved "https://registry.yarnpkg.com/tractor-file-structure/-/tractor-file-structure-0.4.0-beta.0.tgz#02ea31779fd17f56ff3cf9bfea18f35769e7e1d4"
+  dependencies:
+    bluebird "^3.4.7"
+    chokidar "^1.7.0"
+    express "^4.15.4"
+    lodash.debounce "^4.0.8"
+    tractor-error-handler "^0.2.1"
     tractor-logger "^0.1.0"
 
 tractor-logger@^0.1.0:
@@ -1333,9 +1343,9 @@ tractor-logger@^0.1.0:
   dependencies:
     npmlog "4.0.2"
 
-tractor-plugin-features@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/tractor-plugin-features/-/tractor-plugin-features-0.1.0.tgz#321da48fd6fa7d8542eec302424b0ee7974dfd71"
+tractor-plugin-features@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/tractor-plugin-features/-/tractor-plugin-features-0.2.0.tgz#4df21672073d6b0a2e37bafead5cf41dd7e0c564"
   dependencies:
     dedent "^0.7.0"
     esprima "^4.0.0"
@@ -1344,20 +1354,21 @@ tractor-plugin-features@^0.1.0:
     lodash.escaperegexp "^4.1.2"
     stripcolorcodes "^0.1.0"
     tractor-error-handler "^0.2.0"
-    tractor-file-structure "^0.2.1"
+    tractor-file-structure "^0.4.0-beta.0"
     tractor-logger "^0.1.0"
-    tractor-plugin-step-definitions "^0.1.1"
+    tractor-plugin-step-definitions "^0.2.0"
 
-tractor-plugin-step-definitions@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/tractor-plugin-step-definitions/-/tractor-plugin-step-definitions-0.1.1.tgz#661c03a42f13543952cc885c18ce82eeb7a0404c"
+tractor-plugin-step-definitions@^0.2.0, tractor-plugin-step-definitions@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/tractor-plugin-step-definitions/-/tractor-plugin-step-definitions-0.2.1.tgz#d8df245b2b4e7f881c3276d98d50e0208ce70386"
   dependencies:
     bluebird "^3.5.0"
     change-case "^3.0.1"
     esquery "^1.0.0"
     graceful-fs "^4.1.11"
     tractor-error-handler "^0.2.1"
-    tractor-file-javascript "^0.1.1"
+    tractor-file-javascript "^0.2.0"
+    tractor-file-structure "^0.4.0-beta.0"
     tractor-logger "^0.1.0"
 
 tunnel-agent@^0.6.0:
