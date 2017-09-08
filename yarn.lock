@@ -1358,9 +1358,22 @@ tractor-plugin-features@^0.2.0:
     tractor-logger "^0.1.0"
     tractor-plugin-step-definitions "^0.2.0"
 
-tractor-plugin-step-definitions@^0.2.0, tractor-plugin-step-definitions@^0.2.1:
+tractor-plugin-step-definitions@^0.2.0:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/tractor-plugin-step-definitions/-/tractor-plugin-step-definitions-0.2.1.tgz#d8df245b2b4e7f881c3276d98d50e0208ce70386"
+  dependencies:
+    bluebird "^3.5.0"
+    change-case "^3.0.1"
+    esquery "^1.0.0"
+    graceful-fs "^4.1.11"
+    tractor-error-handler "^0.2.1"
+    tractor-file-javascript "^0.2.0"
+    tractor-file-structure "^0.4.0-beta.0"
+    tractor-logger "^0.1.0"
+
+tractor-plugin-step-definitions@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/tractor-plugin-step-definitions/-/tractor-plugin-step-definitions-0.2.2.tgz#b7e92b4de845b3ac8b63de01746b988ae3e2496c"
   dependencies:
     bluebird "^3.5.0"
     change-case "^3.0.1"

@@ -1,6 +1,6 @@
 {
   "name": "tractor-plugin-cucumber",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Craig Spence <craigspence0@gmail.com>",
   "repository": {
     "type": "git",
@@ -17,6 +17,6 @@
   "main": "index.js",
   "dependencies": {
     "tractor-plugin-features": "^0.2.0",
-    "tractor-plugin-step-definitions": "^0.2.1"
+    "tractor-plugin-step-definitions": "^0.2.2"
   }
 }
