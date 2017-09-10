@@ -1371,9 +1371,9 @@ tractor-plugin-step-definitions@^0.2.0:
     tractor-file-structure "^0.4.0-beta.0"
     tractor-logger "^0.1.0"
 
-tractor-plugin-step-definitions@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/tractor-plugin-step-definitions/-/tractor-plugin-step-definitions-0.2.3.tgz#e8b8f9efcaa04a56f0aded74c509073cbf0db236"
+tractor-plugin-step-definitions@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/tractor-plugin-step-definitions/-/tractor-plugin-step-definitions-0.2.4.tgz#3b0c8a77e253fd0fefbe62b0a6b679a1ce6b9b98"
   dependencies:
     bluebird "^3.5.0"
     change-case "^3.0.1"
