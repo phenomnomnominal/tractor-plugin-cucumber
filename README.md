@@ -2,7 +2,11 @@
 
 Plugin for [**tractor**](http://github.com/TradeMe/tractor) for running tests using Cucumber and Gherkin.
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/phenomnomnominal/tractor-plugin-cucumber.svg)](https://greenkeeper.io/)
 [![npm version](https://img.shields.io/npm/v/tractor-plugin-cucumber.svg)](https://www.npmjs.com/package/tractor-plugin-cucumber)
+[![bitHound Overall Score](https://www.bithound.io/github/phenomnomnominal/tractor-plugin-cucumber/badges/score.svg)](https://www.bithound.io/github/phenomnomnominal/tractor-plugin-cucumber)
+[![Code Climate](https://codeclimate.com/github/phenomnomnominal/tractor-plugin-cucumber/badges/gpa.svg)](https://codeclimate.com/github/phenomnomnominal/tractor-plugin-cucumber)
+[![Test Coverage](https://codeclimate.com/github/phenomnomnominal/tractor-plugin-cucumber/coverage.svg)](https://codeclimate.com/github/phenomnomnominal/tractor-plugin-cucumber/coverage)
 
 ## How to use:
 
