@@ -1,0 +1,29 @@
+// Dependencies:
+import Promise from 'bluebird';
+import fs from 'graceful-fs';
+import path from 'path';
+import { warn } from 'tractor-logger';
+import { copyFile, createDir } from 'tractor-file-structure';
+
+// Errors:
+import { TractorError } from 'tractor-error-handler';
+
+export function init (config) {
+    let cucumberReportsDirectoryPath = path.resolve(process.cwd(), config.cucumber.reportsDirectory);
+    let cucumberSupportDirectoryPath = path.resolve(process.cwd(), config.cucumber.supportDirectory);
+
+    return createDir(cucumberReportsDirectoryPath)
+    .catch(TractorError.isTractorError, error => warn(`${error.message} Moving on...`))
+    .then(() => createDir(cucumberSupportDirectoryPath))
+    .catch(TractorError.isTractorError, error => warn(`${error.message} Moving on...`))
+    .then(() => copySupportFiles(cucumberSupportDirectoryPath));
+}
+init['@Inject'] = ['config'];
+
+function copySupportFiles (supportDirectory) {
+    let supportFilesDirectory = path.resolve(__dirname, '../support-files');
+    return Promise.map(fs.readdirAsync(supportFilesDirectory), file => {
+        return copyFile(path.join(supportFilesDirectory, file), path.join(supportDirectory, file))
+        .catch(TractorError.isTractorError, error => warn(`${error.message} Not copying...`))
+    });
+}
