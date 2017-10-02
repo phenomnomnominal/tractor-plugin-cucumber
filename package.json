@@ -1,6 +1,6 @@
 {
   "name": "tractor-plugin-cucumber",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "author": "Craig Spence <craigspence0@gmail.com>",
   "repository": {
     "type": "git",
@@ -61,8 +61,8 @@
     "cucumber-html-reporter": "0.3.5",
     "graceful-fs": "^4.1.11",
     "protractor-cucumber-framework": "^4.0.8",
-    "tractor-plugin-features": "^0.2.4",
-    "tractor-plugin-step-definitions": "^0.2.6"
+    "tractor-plugin-features": "^0.2.5",
+    "tractor-plugin-step-definitions": "^0.2.7"
   },
   "peerDependencies": {
     "tractor": "^0.12.1"
