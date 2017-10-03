@@ -3677,9 +3677,9 @@ tractor-logger@^0.1.1:
   dependencies:
     npmlog "^4.1.2"
 
-tractor-plugin-features@^0.2.6:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/tractor-plugin-features/-/tractor-plugin-features-0.2.6.tgz#132c4b27911963fd6fbea713e4f05925afae8c55"
+tractor-plugin-features@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/tractor-plugin-features/-/tractor-plugin-features-0.2.7.tgz#47ff0e4eaa775a84f4ca56ef93e93d02d23e6e62"
   dependencies:
     esprima "^4.0.0"
     estemplate "^0.5.1"
@@ -3687,6 +3687,16 @@ tractor-plugin-features@^0.2.6:
     lodash.escaperegexp "^4.1.2"
     stripcolorcodes "^0.1.0"
     tractor-plugin-step-definitions "^0.2.9"
+
+tractor-plugin-step-definitions@^0.2.10:
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/tractor-plugin-step-definitions/-/tractor-plugin-step-definitions-0.2.10.tgz#b5c35995106fbe4b76c725cd6d97dd0f10d0f9f1"
+  dependencies:
+    bluebird "^3.5.0"
+    change-case "^3.0.1"
+    esquery "^1.0.0"
+    graceful-fs "^4.1.11"
+    tractor-file-javascript "^0.2.4"
 
 tractor-plugin-step-definitions@^0.2.9:
   version "0.2.9"
