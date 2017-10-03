@@ -3677,20 +3677,20 @@ tractor-logger@^0.1.1:
   dependencies:
     npmlog "^4.1.2"
 
-tractor-plugin-features@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/tractor-plugin-features/-/tractor-plugin-features-0.2.5.tgz#dbd94f1a406318a5e19bad02ab90791737ece7d7"
+tractor-plugin-features@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/tractor-plugin-features/-/tractor-plugin-features-0.2.6.tgz#132c4b27911963fd6fbea713e4f05925afae8c55"
   dependencies:
     esprima "^4.0.0"
     estemplate "^0.5.1"
     gherkin "2.12.2"
     lodash.escaperegexp "^4.1.2"
     stripcolorcodes "^0.1.0"
-    tractor-plugin-step-definitions "^0.2.7"
+    tractor-plugin-step-definitions "^0.2.9"
 
-tractor-plugin-step-definitions@^0.2.7:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/tractor-plugin-step-definitions/-/tractor-plugin-step-definitions-0.2.7.tgz#9ccfc41c0fd3f6692bb837cd69dd27974f0577e6"
+tractor-plugin-step-definitions@^0.2.9:
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/tractor-plugin-step-definitions/-/tractor-plugin-step-definitions-0.2.9.tgz#ab0aec6cb599f9db70151c298f8b21f02a860adb"
   dependencies:
     bluebird "^3.5.0"
     change-case "^3.0.1"
