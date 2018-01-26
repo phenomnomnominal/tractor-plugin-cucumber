@@ -62,7 +62,7 @@
     "graceful-fs": "^4.1.11",
     "protractor-cucumber-framework": "^4.0.8",
     "tractor-plugin-features": "^0.2.8",
-    "tractor-plugin-step-definitions": "^0.2.11"
+    "tractor-plugin-step-definitions": "^0.3.0"
   },
   "peerDependencies": {
     "tractor": "^0.12.1"
