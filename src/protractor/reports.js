@@ -1,8 +1,8 @@
 // Depencencies:
+import { createDir } from '@tractor/file-structure';
 import reporter from 'cucumber-html-reporter';
 import path from 'path';
 import rimraf from 'rimraf';
-import { createDir } from 'tractor-file-structure';
 
 export function createReportsDir (cucumberConfig) {
     let tmpReportsDirPath = getTmpReportsDirPath(cucumberConfig);

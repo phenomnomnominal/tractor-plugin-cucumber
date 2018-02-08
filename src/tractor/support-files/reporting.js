@@ -1,10 +1,8 @@
-// Utilities:
+// Dependencies:
+import { getConfig } from '@tractor/config-loader';
+import { Listener } from 'cucumber';
 import fs from 'fs';
 import path from 'path';
-
-// Dependencies:
-import { Listener } from 'cucumber';
-import { getConfig } from 'tractor-config-loader';
 
 module.exports = function () {
     let tmpReportsDirPath = getTmpReportsDirPath();

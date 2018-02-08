@@ -1,16 +1,16 @@
-# tractor-plugin-cucumber
+# @tractor-plugins/cucumber
 
 Plugin for [**tractor**](http://github.com/TradeMe/tractor) for running tests using Cucumber and Gherkin.
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/phenomnomnominal/tractor-plugin-cucumber.svg)](https://greenkeeper.io/)
-[![npm version](https://img.shields.io/npm/v/tractor-plugin-cucumber.svg)](https://www.npmjs.com/package/tractor-plugin-cucumber)
+[![npm version](https://img.shields.io/npm/v/@tractor-plugins/cucumber.svg)](https://www.npmjs.com/package/@tractor-plugins/cucumber)
 [![bitHound Overall Score](https://www.bithound.io/github/phenomnomnominal/tractor-plugin-cucumber/badges/score.svg)](https://www.bithound.io/github/phenomnomnominal/tractor-plugin-cucumber)
 [![Code Climate](https://codeclimate.com/github/phenomnomnominal/tractor-plugin-cucumber/badges/gpa.svg)](https://codeclimate.com/github/phenomnomnominal/tractor-plugin-cucumber)
 [![Test Coverage](https://codeclimate.com/github/phenomnomnominal/tractor-plugin-cucumber/coverage.svg)](https://codeclimate.com/github/phenomnomnominal/tractor-plugin-cucumber/coverage)
 
 ## How to use:
 
-This plugin combines two other plugins, [**tractor-plugin-features**](http://github.com/phenomnomnominal/tractor-plugin-features) and [**tractor-plugin-step-definitions**](http://github.com/phenomnomnominal/tractor-plugin-step-definitions)
+This plugin combines two other plugins, [**@tractor-plugins/features**](http://github.com/phenomnomnominal/tractor-plugin-features) and [**@tractor-plugins/step-definitions**](http://github.com/phenomnomnominal/tractor-plugin-step-definitions)
 
 ### Features config:
 

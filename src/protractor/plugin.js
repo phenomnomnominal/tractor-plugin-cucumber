@@ -1,8 +1,8 @@
 // Dependencies:
+import { getConfig } from '@tractor/config-loader';
+import { TractorError } from '@tractor/error-handler';
 import Promise from 'bluebird';
 import path from 'path';
-import { getConfig } from 'tractor-config-loader';
-import { TractorError } from 'tractor-error-handler';
 import { createReport, createReportsDir } from './reports';
 
 export function plugin (protractorConfig) {

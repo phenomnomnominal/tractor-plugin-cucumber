@@ -1,12 +1,10 @@
-// Utilities:
+// Dependencies:
+import { getConfig } from '@tractor/config-loader';
+import { container } from '@tractor/dependency-injection';
+import { getPlugins } from '@tractor/plugin-loader';
 import Promise from 'bluebird';
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
-
-// Dependencies:
-import { getConfig } from 'tractor-config-loader';
-import { container } from 'tractor-dependency-injection';
-import { getPlugins } from 'tractor-plugin-loader';
 
 var di = container();
 var plugins = getPlugins();

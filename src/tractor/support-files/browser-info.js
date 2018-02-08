@@ -1,6 +1,6 @@
 // Dependencies:
+import { error } from '@tractor/logger';
 import Promise from 'bluebird';
-import { error } from 'tractor-logger';
 
 module.exports = function () {
     this.After(scenario => {
